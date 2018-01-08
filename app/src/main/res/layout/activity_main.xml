@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="aksr.downloadfilewithasynctask.MainActivity">
+
+
+    <SeekBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:indeterminate="false"
+        android:progressDrawable="@drawable/progress_seekbar"
+        android:thumb="@android:drawable/radiobutton_on_background" />
+
+    <Button
+        android:id="@+id/permissao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Permissao" />
+
+    <Button
+        android:id="@+id/folder"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/permissao"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/folder"
+        android:contentDescription="@string/folder"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/folder"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

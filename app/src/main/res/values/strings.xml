@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Download file with AsyncTask</string>
+    <string name="Permissao">Permissao</string>
+    <string name="PermissaoExplain">Para sincronizar, Precisamos baixar alguns arquivos na pasta MyAppName</string>
+    <string name="Permissao23">Sem permissão para sincronizar</string>
+    <string name="gerenciador">Instale um gerenciador de arquivos</string>
+    <string name="folder">Pasta</string>
+    <string name="pastaVazia">Pasta vazia!</string>
+</resources>
